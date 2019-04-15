@@ -1,0 +1,23 @@
+.line {
+    max-width: 80%;
+}
+
+.content {
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    line-height: 2;
+    font-size: 1.2em;
+    & h3 {
+        color: #267BF4;
+        font-weight: 800;
+        font-size: 2em;
+    }
+}
+
+@media (min-width: 768px) {
+    .row {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
